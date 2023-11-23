@@ -1,17 +1,22 @@
 public class MonteurPizza {
     protected Pizza pizza;
-    public Pizza getPizza() {
+
+    public static void createNewPizzaProduct() {
+    }
+
+    public static void montersauce() {
+    }
+
+
+
+    public static Pizza getPizza() {
         return pizza;
     }
     public void creerNouvellePizza() {
         pizza = new Pizza();
     }
 
-    public void monterPate() {
-        
-    }
-
-    public void monterSauce() {
+    public static void monterPate() {
         
     }
 

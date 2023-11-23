@@ -1,15 +1,25 @@
+
 public class Client {
     public static void main(String[] args) {
-        System.out.println("execution du patron de construction builder");
+        System.out.println("implémentation du patron de construction builder");
+        Directeur directeur = new Directeur();
 
-        var Directeur = new Directeur();
+        MonteurPizza  MonteurPizzaPiquante = new MonteurPizzaPiquante();
+        MonteurPizza MonteurPizzaReine = new MonteurPizzaReine();
 
-        var MonteurPizza = new MonteurPizzaPiquante();
-        Directeur.getPizza();
-        MonteurPizza.monterGarniture();
-        MonteurPizza.monterPate();
-        MonteurPizza.monterSauce();
-        MonteurPizza.getPizza();
+        Pizza pizza = directeur.getPizza();
+        System.out.println();
 
+        directeur.setMonteurPizza( MonteurPizzaPiquante);
+        directeur.constructPizza();
+
+        pizza = directeur.getPizza();
+        System.out.println();
+
+        directeur.setMonteurPizza( MonteurPizzaPiquante);
+        directeur.constructPizza();
+
+        pizza = directeur.getPizza();
+        System.out.println();
     }
 }

@@ -3,7 +3,7 @@ public class Directeur {
     private MonteurPizza monteurPizza;
 
     public void setMonteurPizza(MonteurPizza mp){
-        MonteurPizza = mp;
+        MonteurPizza MonteurPizza = mp;
     }
     public Pizza getPizza(){
         return MonteurPizza.getPizza();
@@ -12,8 +12,12 @@ public class Directeur {
         MonteurPizza.createNewPizzaProduct();
         MonteurPizza.monterPate();
         MonteurPizza.montersauce();
-        MonteurPizza.monter();
+        MonteurPizza.monterGarniture();
 
 
+    }
+
+    public void constructPizza() {
+        
     }
 }
