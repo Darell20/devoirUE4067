@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Adapter/Adapter.iml" filepath="$PROJECT_DIR$/Adapter/Adapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Adapter/AdapterDlist/AdapterDlist.iml" filepath="$PROJECT_DIR$/Adapter/AdapterDlist/AdapterDlist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/StructuralPattern.iml" filepath="$PROJECT_DIR$/.idea/StructuralPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bridge/bridge.iml" filepath="$PROJECT_DIR$/bridge/bridge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/composite/composite.iml" filepath="$PROJECT_DIR$/composite/composite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/decorator/decorateurHorizontal/decorateurHorizontal.iml" filepath="$PROJECT_DIR$/decorator/decorateurHorizontal/decorateurHorizontal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/decorator/decorateurVertival/decorateurVertival.iml" filepath="$PROJECT_DIR$/decorator/decorateurVertival/decorateurVertival.iml" />
+      <module fileurl="file://$PROJECT_DIR$/decorator/decorateurCombiné/decorateurcombiné.iml" filepath="$PROJECT_DIR$/decorator/decorateurCombiné/decorateurcombiné.iml" />
+      <module fileurl="file://$PROJECT_DIR$/decorator/decorator.iml" filepath="$PROJECT_DIR$/decorator/decorator.iml" />
+    </modules>
+  </component>
+</project>
